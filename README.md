@@ -63,37 +63,43 @@ Saamya/
 ---
 
 
+Sure! Here’s a cleaned-up version you can copy straight into your README:
+
 ## ⚙️ Installation & Setup
 
 1. **Clone the Repository**  
    ```bash
-   git clone     https://github.com/Ananyakr123/Saamya1.git
+   git clone https://github.com/Ananyakr123/Saamya1.git
    cd Saamya1
-  ```
 
-2. **Install Dependencies**
+2. Install Dependencies
 
-   ```bash
-   npm install
-   ```
+npm install
 
-3. **Run on Localhost**
 
-   ```bash
-   npm run dev
-   ```
+3. Start Development Server
 
-4. **Build for Production**
+npm run dev
 
-   ```bash
-   npm run build
-   ```
 
-5. **Deploy on GitHub Pages**
+4. Build for Production
 
-   ```bash
-   npm run deploy
-   ```
+npm run build
+
+
+5. Deploy to GitHub Pages
+(Make sure you have a deploy script in package.json, e.g. using gh-pages)
+
+npm run deploy
+
+
+
+This version:
+
+- Removes extra spaces after `git clone`.
+- Correctly closes all code blocks.
+- Adds a small note about ensuring the `deploy` script exists so `npm run deploy` won’t fail.
+
 
 ## 🔑 Environment Variables
 
