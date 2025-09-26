@@ -119,8 +119,4 @@ Stuti Jain – UI/UX Designer
 
 Licensed under the MIT License – free to use and modify.
 
-### Key Fix
-- The **tree diagram** is wrapped in a **triple-backtick block without a language hint** (` ``` ` or ` ```none `).  
-  GitHub will then preserve all spaces and vertical bars so it stays perfectly aligned in dark mode and on mobile.
-
 
