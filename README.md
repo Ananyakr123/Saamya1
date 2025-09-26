@@ -47,10 +47,6 @@ Saamya/
 └── README.md             # Documentation
 
 
-## ⚙️ Installation & Setup
-> **Prerequisite:** Node.js and npm installed
-
-```bash
 # Clone the repository
 git clone https://github.com/Ananyakr123/Saamya1.git
 cd Saamya1
