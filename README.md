@@ -1,5 +1,3 @@
-Here’s a clean, GitHub-friendly version of the README with a perfectly aligned project-tree that renders well on desktop and mobile.
-Copy–paste everything below directly into README.md:
 
 # 🌸 Saamya – AI-Powered Youth Mental Wellness Platform
 
