@@ -64,11 +64,7 @@ Saamya/
 
 
 ## ⚙️ Installation & Setup
-
-
 ```
-
-
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/Ananyakr123/Saamya1.git
@@ -98,7 +94,6 @@ Saamya/
    ```bash
    npm run deploy
    ```
-
 ```
 ---
 
@@ -144,8 +139,7 @@ VITE_FIREBASE_APP_ID=your_firebase_app_id
 - **Team Jeevan** – Ideation, AI Integration, Research  
 - **Ananya Kumari** – Frontend & Backend Engineer    
 - **Swasti Jain** – AI Integrator  
-
-
+- **Stuti Jain**- UI/UX designer 
 ---
 
 ## 📜 License
