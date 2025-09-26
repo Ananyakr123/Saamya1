@@ -44,55 +44,74 @@ Saamya is an AI-powered mental-wellness platform that offers confidential, empat
 
 ## 📂 Project Structure
 
+Here is the file structure of the Saamya application:
+
 
 Saamya/
-│
 ├── public/                # Static files (HTML, images, icons)
 │   └── index.html         # Entry HTML file
-│
 ├── src/                   # Application source code
 │   ├── components/        # Reusable UI components
 │   ├── pages/             # Pages (Home, Dashboard, Journal, Chat, etc.)
 │   ├── firebase/          # Firebase configs & Hugging Face API integration
 │   ├── App.jsx            # Main app component
 │   └── main.jsx           # React entry point
-│
 ├── demo/                  # MongoDB setup
 │   └── userdata           # User data collection
-│
 ├── package.json           # Dependencies & scripts
 └── README.md              # Documentation
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚀 Getting Started
 
-Follow these steps to set up the project locally.
+This section will guide you through setting up the project on your local machine.
 
-> **Prerequisite**: Make sure you have [Node.js](https://nodejs.org/) and `npm` installed on your machine.
+### Prerequisites
 
-**1️⃣ Clone the repository**
-```bash
-git clone [https://github.com/Ananyakr123/Saamya1.git](https://github.com/Ananyakr123/Saamya1.git)
-cd Saamya1
+Before you begin, ensure you have the following installed:
+* [Node.js](https://nodejs.org/) (which includes npm)
 
-2️⃣ Install dependencies
-npm install
+### Installation & Setup
 
-3️⃣ Start the development server
-npm run dev
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/Ananyakr123/Saamya1.git](https://github.com/Ananyakr123/Saamya1.git)
+    cd Saamya1
+    ```
 
-The application will be available at http://localhost:5173.
-4️⃣ Build for production
-npm run build
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-This command bundles the app into static files for production in the dist folder.
-5️⃣ Deploy to GitHub Pages
-This requires a "deploy" script in your package.json (e.g., using the gh-pages package).
-npm run deploy
+3.  **Set up Environment Variables**
+    Create a `.env` file in the root of the project and add the necessary keys as described in the [Environment Variables](#-environment-variables) section below.
 
-🔑 Environment Variables
-To run this project, you will need to add the following environment variables to a .env file in the project's root directory:
+4.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+    The application will be running at `http://localhost:5173`.
+
+5.  **Build for production**
+    ```bash
+    npm run build
+    ```
+
+6.  **Deploy to GitHub Pages**
+    This requires a "deploy" script in your `package.json` (e.g., using the `gh-pages` package).
+    ```bash
+    npm run deploy
+    ```
+
+---
+
+## 🔑 Environment Variables
+
+To run this project, you will need to add the following environment variables to a `.env` file in the project's root directory:
+
+```env
 # Hugging Face API Key
 VITE_HF_API_KEY=your_huggingface_api_key
 
@@ -141,8 +160,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+LIABILITY, WHETHER IN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
