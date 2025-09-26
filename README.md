@@ -50,14 +50,19 @@ Saamya/
 ## ⚙️ Installation & Setup
 > **Prerequisite:** Node.js and npm installed
 
+```bash
+# Clone the repository
 git clone https://github.com/Ananyakr123/Saamya1.git
 cd Saamya1
 
+# Install dependencies
 npm install
 
+# Start development server
 npm run dev
 
+# Build for production
 npm run build
 
-npm run deploy  # requires "deploy" script in package.json
-
+# Deploy to GitHub Pages (requires "deploy" script in package.json)
+npm run deploy
