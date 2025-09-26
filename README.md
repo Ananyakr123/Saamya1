@@ -58,9 +58,7 @@ Saamya/
 │── package.json           # Dependencies & scripts
 │── README.md              # Documentation
 
-````
-````
-
+---
 
 ## ⚙️ Installation & Setup
 
