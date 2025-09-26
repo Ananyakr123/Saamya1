@@ -60,7 +60,7 @@ Saamya/
 
 
 ```
-----
+---
 
 
 ## ⚙️ Installation & Setup
@@ -96,7 +96,7 @@ Saamya/
    ```bash
    npm run deploy
    ```
-
+```
 ---
 
 ## 🔑 Environment Variables
