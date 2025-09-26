@@ -94,8 +94,6 @@ Saamya/
    ```bash
    npm run deploy
    ```
-```
-
 
 ## 🔑 Environment Variables
 
