@@ -94,7 +94,7 @@ Saamya/
    ```bash
    npm run deploy
    ```
-
+'''
 ## 🔑 Environment Variables
 
 Create a `.env` file in the root directory and add:
