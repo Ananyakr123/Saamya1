@@ -1,8 +1,10 @@
+Here’s a clean, GitHub-friendly version of the README with a perfectly aligned project-tree that renders well on desktop and mobile.
+Copy–paste everything below directly into README.md:
 
 # 🌸 Saamya – AI-Powered Youth Mental Wellness Platform
 
-Saamya is an **AI-powered mental-wellness platform** that offers confidential, empathetic, and accessible support for youth.  
-It reduces mental-health stigma by providing guidance, journaling, resources, and AI-driven companionship in a safe space.
+Saamya is an **AI-powered mental-wellness platform** offering confidential, empathetic, and accessible support for youth.  
+It reduces mental-health stigma through guidance, journaling, resources, and AI-driven companionship in a safe space.
 
 ---
 
@@ -17,33 +19,24 @@ It reduces mental-health stigma by providing guidance, journaling, resources, an
 ---
 
 ## 🛠️ Tech Stack
-**Frontend**
-- React + Vite  
-- Tailwind CSS  
-- shadcn/ui  
-- React Router  
-
-**Backend**
-- Firebase Authentication & APIs  
-- MongoDB for user data (courses, journals, mood tracking, etc.)  
-
-**AI**
-- Hugging Face Inference API  
-
-**Deployment**
-- GitHub Pages (frontend)  
-- Firebase (backend services)  
+**Frontend:** React + Vite, Tailwind CSS, shadcn/ui, React Router  
+**Backend:** Firebase Authentication & APIs, MongoDB  
+**AI:** Hugging Face Inference API  
+**Deployment:** GitHub Pages (frontend), Firebase (backend services)
 
 ---
 
 ## 📂 Project Structure
+Use a **plain-text tree** so GitHub preserves spacing:
 
-Saamya/ │── public/                # Static files (HTML, images, icons) │   └── index.html         # Entry HTML file │ │── src/                   # Application source code │   ├── components/        # Reusable UI components │   ├── pages/             # Pages (Home, Dashboard, Journal, Chat, etc.) │   ├── firebase/          # Firebase configs & Hugging Face API integration │   ├── App.jsx            # Main app component │   └── main.jsx           # React entry point │ │── demo/                  # MongoDB setup │   └── userdata           # User data collection │ │── package.json           # Dependencies & scripts │── README.md              # Documentation
+Saamya ├─ public/                 # Static files (HTML, images, icons) │  └─ index.html           # Entry HTML file ├─ src/                    # Application source code │  ├─ components/          # Reusable UI components │  ├─ pages/               # Home, Dashboard, Journal, Chat, etc. │  ├─ firebase/            # Firebase configs & Hugging Face API integration │  ├─ App.jsx              # Main app component │  └─ main.jsx             # React entry point ├─ demo/                   # MongoDB setup │  └─ userdata             # User data collection ├─ package.json            # Dependencies & scripts └─ README.md               # Documentation
+
+> Tip: The backticks around this block **must** start and end with three backticks and the word `none` or nothing after them (`````` or ```none```) to avoid GitHub applying unwanted syntax coloring.
 
 ---
 
 ## ⚙️ Installation & Setup
-> **Prerequisite:** Node.js and npm installed
+> **Requires:** Node.js and npm
 
 ```bash
 # 1️⃣ Clone the repository
@@ -59,7 +52,7 @@ npm run dev
 # 4️⃣ Build for production
 npm run build
 
-# 5️⃣ Deploy to GitHub Pages (requires "deploy" script in package.json)
+# 5️⃣ Deploy to GitHub Pages (ensure "deploy" script exists)
 npm run deploy
 
 
@@ -82,9 +75,9 @@ VITE_FIREBASE_APP_ID=your_firebase_app_id
 
 💡 Usage
 
-Sign up / Login – Users authenticate via Firebase
+Sign Up / Login – Authenticate via Firebase
 
-Dashboard – Track mood, journal entries, and personal goals
+Dashboard – Track mood, journal entries, and goals
 
 AI Chatbot – Real-time empathetic conversations
 
@@ -128,5 +121,8 @@ Stuti Jain – UI/UX Designer
 
 Licensed under the MIT License – free to use and modify.
 
+### Key Fix
+- The **tree diagram** is wrapped in a **triple-backtick block without a language hint** (` ``` ` or ` ```none `).  
+  GitHub will then preserve all spaces and vertical bars so it stays perfectly aligned in dark mode and on mobile.
 
 
