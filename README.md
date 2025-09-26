@@ -58,10 +58,15 @@ Saamya/
 │── package.json           # Dependencies & scripts
 │── README.md              # Documentation
 
----
+
+```
+----
+
 
 ## ⚙️ Installation & Setup
 
+
+```
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/Ananyakr123/Saamya.git
