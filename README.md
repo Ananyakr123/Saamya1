@@ -31,7 +31,7 @@ It reduces mental-health stigma by providing guidance, journaling, resources, an
 
 ## 📂 Project Structure
 
-
+---text
 Saamya/
 ├── public/               # Static files (HTML, images, icons)
 │   └── index.html        # Entry HTML file
@@ -47,18 +47,3 @@ Saamya/
 └── README.md             # Documentation
 
 
-# Clone the repository
-git clone https://github.com/Ananyakr123/Saamya1.git
-cd Saamya1
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Deploy to GitHub Pages (requires "deploy" script in package.json)
-npm run deploy
