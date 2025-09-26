@@ -45,3 +45,17 @@ Saamya/
 │   └── userdata          # User data collection
 ├── package.json          # Dependencies & scripts
 └── README.md             # Documentation
+## ⚙️ Installation & Setup
+> **Prerequisite:** Node.js and npm installed
+
+git clone https://github.com/Ananyakr123/Saamya1.git
+cd Saamya1
+
+npm install
+
+npm run dev
+
+npm run build
+
+npm run deploy  # requires "deploy" script in package.json
+
