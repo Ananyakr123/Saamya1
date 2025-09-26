@@ -72,7 +72,7 @@ Follow these steps to set up the project locally.
 > **Prerequisite**: Make sure you have [Node.js](https://nodejs.org/) and `npm` installed on your machine.
 
 **1️⃣ Clone the repository**
-bash
+```bash
 git clone [https://github.com/Ananyakr123/Saamya1.git](https://github.com/Ananyakr123/Saamya1.git)
 cd Saamya1
 
