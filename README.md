@@ -67,6 +67,8 @@ Saamya/
 
 
 ```
+
+
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/Ananyakr123/Saamya1.git
@@ -96,6 +98,7 @@ Saamya/
    ```bash
    npm run deploy
    ```
+
 ```
 ---
 
