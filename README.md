@@ -31,7 +31,6 @@ It reduces mental-health stigma by providing guidance, journaling, resources, an
 
 ## 📂 Project Structure
 
----text
 Saamya/
 ├── public/               # Static files (HTML, images, icons)
 │   └── index.html        # Entry HTML file
@@ -45,5 +44,3 @@ Saamya/
 │   └── userdata          # User data collection
 ├── package.json          # Dependencies & scripts
 └── README.md             # Documentation
-
-
